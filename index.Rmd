@@ -7,6 +7,16 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## About
+
+I am Blake Bordelon, an applied mathematics graduate student with research interests that lie in the convex hull of machine learning, statistical mechanics, and theoretical neuroscience. I work in Cengiz Pehlevan's group at Harvard. I am interested in understanding neural networks: optimization, representation, and generalization. My CV is here. 
+
+## Papers
+
+B. Bordelon, A. Canatar, and C. Pehlevan, [“Spectrum Dependent Learning Curves in Kernel Regression and Wide Neural Networks,”](https://arxiv.org/abs/2002.02561) International Conference of Machine Learning (ICML), 2020.
+
+
+
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
