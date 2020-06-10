@@ -3,4 +3,9 @@ title: "about"
 output: html_document
 ---
 
+# Blog
 Welcome to my blog! 
+
+## Kernel Regression Generalization: Spectral Bias and Multiple Descents 
+
+## Using JAX and Neural Tangents to Experiment with Infinitely Wide Nets 
