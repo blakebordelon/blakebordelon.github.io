@@ -1,5 +1,5 @@
 ---
-title: "about"
+title: "Blake's Blog"
 output: html_document
 ---
 
