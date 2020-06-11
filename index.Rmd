@@ -20,6 +20,8 @@ Phys. Rev. C 101, 044303, 2020
 
 B.Bagley, B. Bordelon, B. Moseley, R. Wessel ["Pre-Synaptic Pool Modification (PSPM): A supervised learning procedure for recurrent spiking neural networks""](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229083)
 
+### Github
 
+My github can be found [here](https://github.com/blakebordelon).
 
 

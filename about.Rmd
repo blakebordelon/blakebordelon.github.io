@@ -3,9 +3,9 @@ title: "Blake's Blog"
 ---
 
 # Blog
-Welcome to my blog! 
 
-## Kernel Regression Generalization: Spectral Bias and Multiple Descents 
-This colab notebook contains an introduction to a theory of generalization of kernel regression, exploring spectral bias and the non-monotonicity of the risk curves in the presence of noise. 
+
+### Kernel Regression Generalization: Spectral Bias and Multiple Descents 
+This [colab notebook](https://colab.research.google.com/drive/1XNVNLcUzlpWT0jwS5__p0qXhF7P9tGqd?usp=sharing) contains an introduction to an average case analysis of generalization in kernel regression, exploring spectral bias and the non-monotonicity of the risk curves in the presence of noise. 
 
 
