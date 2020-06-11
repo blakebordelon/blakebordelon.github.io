@@ -7,5 +7,6 @@ output: html_document
 Welcome to my blog! 
 
 ## Kernel Regression Generalization: Spectral Bias and Multiple Descents 
+This colab notebook contains an introduction to a theory of generalization of kernel regression, exploring spectral bias and the non-monotonicity of the risk curves in the presence of noise. 
 
-## Using JAX and Neural Tangents to Experiment with Infinitely Wide Nets 
+
