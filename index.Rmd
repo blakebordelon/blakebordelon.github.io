@@ -2,7 +2,6 @@
 title: "Blake Bordelon"
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -24,7 +23,8 @@ B.Bagley, B. Bordelon, B. Moseley, R. Wessel ["Pre-Synaptic Pool Modification (P
 
 My github can be found [here](https://github.com/blakebordelon).
 
-![alt text][id]
 
-[id]: figures/powerlaw_different_stages.pdf "Title"
+![kernel regression expts](phase.jpg)
+
+![kernel regression expts](schrodinger.jpg)
 
