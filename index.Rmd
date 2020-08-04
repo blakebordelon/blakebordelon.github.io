@@ -8,9 +8,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## About
 
-I am Blake Bordelon, an applied mathematics student in [Cengiz Pehlevan's Group](https://pehlevan.seas.harvard.edu/) at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience. You can find my papers below as well as a link to my blog above. 
+I am Blake Bordelon, an applied math PhD student in the [Pehlevan Group](https://pehlevan.seas.harvard.edu/) at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience. You can find my papers below as well as a link to my blog above. 
 
 ## Papers
+
+A. Canatar, B. Bordelon, and C. Pehlevan, [“Statistical Mechanics of Generalization in Kernel Regression,”](https://arxiv.org/abs/2006.13198) 2020. 
 
 B. Bordelon, A. Canatar, and C. Pehlevan, [“Spectrum Dependent Learning Curves in Kernel Regression and Wide Neural Networks,”](https://arxiv.org/abs/2002.02561) International Conference of Machine Learning (ICML), 2020.
 
@@ -24,7 +26,7 @@ B.Bagley, B. Bordelon, B. Moseley, R. Wessel ["Pre-Synaptic Pool Modification (P
 My github can be found [here](https://github.com/blakebordelon).
 
 
-![kernel regression expts](phase.jpg)
+![The Generalization Error of Kernel Regression: Sample-Wise Multiple Descents](phase.jpg)
 
-![kernel regression expts](schrodinger.jpg)
+![Me and Erwin](schrodinger.jpg)
 
