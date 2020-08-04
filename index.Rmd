@@ -28,5 +28,5 @@ My github can be found [here](https://github.com/blakebordelon).
 
 ![The Generalization Error of Kernel Regression: Sample-Wise Multiple Descents](phase.jpg)
 
-![Me and Erwin](schrodinger.jpg)
+![Erwin Schrodinger in Vienna](schrodinger.jpg)
 
