@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## About
 
-I am Blake Bordelon, an applied math PhD student in the [Pehlevan Group](https://pehlevan.seas.harvard.edu/) at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience. You can find my papers below as well as a link to my blog above. 
+I am Blake Bordelon, an applied math PhD student in the [Pehlevan Group](https://pehlevan.seas.harvard.edu/) at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience. 
 
 ## Papers
 
