@@ -21,9 +21,13 @@ Phys. Rev. C 101, 044303, 2020
 
 B.Bagley, B. Bordelon, B. Moseley, R. Wessel ["Pre-Synaptic Pool Modification (PSPM): A supervised learning procedure for recurrent spiking neural networks""](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229083) PLOS ONE 15(2): e0229083, 2020.
 
+### CV
+Here is my current [CV](https://blakebordelon.github.io/CV/Blake_CV.pdf)
+
 ### Github
 
 My github can be found [here](https://github.com/blakebordelon).
+
 
 
 ![The Generalization Error of Kernel Regression: Sample-Wise Multiple Descents](phase.jpg)
