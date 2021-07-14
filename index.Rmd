@@ -10,15 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![A recent picture of me](headshot.jpg){width=50%}
 
-I am Blake Bordelon, an applied math PhD student in the [Pehlevan Group](https://pehlevan.seas.harvard.edu/) at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience. Here is my current [CV](https://blakebordelon.github.io/CV/Blake_Bordelon_CV_July.pdf)
+I am Blake Bordelon, an applied math PhD student in the [Pehlevan Group](https://pehlevan.seas.harvard.edu/) at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience.
 
-### Github
-
-My github can be found [here](https://github.com/blakebordelon).
-
-
-
-![The Generalization Error of Kernel Regression: Sample-Wise Multiple Descents](phase.jpg){width=50%}
 
 
 

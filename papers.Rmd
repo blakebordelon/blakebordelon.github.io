@@ -1,15 +1,29 @@
 ---
-title: "Publications and Preprints"
+title: "Papers"
 ---
 
+# Preprints
 
-A. Canatar, B. Bordelon, and C. Pehlevan, [“Statistical Mechanics of Generalization in Kernel Regression,”](https://arxiv.org/abs/2006.13198) 2020. 
+**B**, Pehlevan ["Learning Curves for SGD on Structured Features
+"](https://arxiv.org/abs/2106.02713) 2021.
 
-B. Bordelon, A. Canatar, and C. Pehlevan, [“Spectrum Dependent Learning Curves in Kernel Regression and Wide Neural Networks,”](https://arxiv.org/abs/2002.02561) International Conference of Machine Learning (ICML), 2020.
+Shan, **B** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
+"](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
 
-M. C. Atkinson, M. H. Mahzoon, M. A. Keim, B. A. Bordelon, C. D. Pruitt, R. J. Charity, and W. H. Dickhoff [“Dispersive optical model analysis of Pb-208 generating a neutron-skin prediction beyond the mean field,”](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.101.044303)
+Canatar, **B**, Pehlevan ["Out-of-Distribution Generalization in Kernel Regression"](https://arxiv.org/abs/2106.02261) 2021.
+
+**B**, Pehlevan ["Population Codes Enable Learning from Few Examples By Shaping Inductive Bias"](https://www.biorxiv.org/content/10.1101/2021.03.30.437743v1) 2021.
+
+
+# Publications
+
+Canatar, **B**, and Pehlevan, [“Spectral bias and task-model alignment explain generalization in kernel regression and infinitely wide neural networks”](https://www.nature.com/articles/s41467-021-23103-1) 2021. 
+
+**B**, Canatar, and Pehlevan, [“Spectrum Dependent Learning Curves in Kernel Regression and Wide Neural Networks,”](https://arxiv.org/abs/2002.02561) International Conference of Machine Learning (ICML), 2020.
+
+Atkinson, Mahzoon, Keim, **B**, Pruitt, Charity, and Dickhoff [“Dispersive optical model analysis of Pb-208 generating a neutron-skin prediction beyond the mean field,”](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.101.044303)
 Phys. Rev. C 101, 044303, 2020
 
-B.Bagley, B. Bordelon, B. Moseley, R. Wessel ["Pre-Synaptic Pool Modification (PSPM): A supervised learning procedure for recurrent spiking neural networks""](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229083) PLOS ONE 15(2): e0229083, 2020. 
+Bagley, **B**, Moseley, Wessel ["Pre-Synaptic Pool Modification (PSPM): A supervised learning procedure for recurrent spiking neural networks""](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229083) PLOS ONE, 2020. 
 
 

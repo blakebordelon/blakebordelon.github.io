@@ -10,6 +10,8 @@ navbar:
       href: papers.html
     - text: "CV"
       href: https://blakebordelon.github.io/CV/Blake_Bordelon_CV_July.pdf
+    - text: "Github"
+      href: https://github.com/blakebordelon
     - text: "Blog Posts"  
       href: about.html
 output:
