@@ -2,7 +2,7 @@
 title: "Papers"
 ---
 
-# Preprints
+### Preprints
 
 **B**, Pehlevan ["Learning Curves for SGD on Structured Features
 "](https://arxiv.org/abs/2106.02713) 2021.
@@ -15,7 +15,7 @@ Canatar, **B**, Pehlevan ["Out-of-Distribution Generalization in Kernel Regressi
 **B**, Pehlevan ["Population Codes Enable Learning from Few Examples By Shaping Inductive Bias"](https://www.biorxiv.org/content/10.1101/2021.03.30.437743v1) 2021.
 
 
-# Publications
+### Publications
 
 Canatar, **B**, and Pehlevan, [“Spectral bias and task-model alignment explain generalization in kernel regression and infinitely wide neural networks”](https://www.nature.com/articles/s41467-021-23103-1) 2021. 
 
