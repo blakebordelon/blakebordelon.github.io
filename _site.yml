@@ -4,7 +4,13 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Blog"
+    - text: "Research Summary"
+      href: summary.html
+    - text: "Papers"
+      href: papers.html
+    - text: "CV"
+      href: https://blakebordelon.github.io/CV/Blake_Bordelon_CV_July.pdf
+    - text: "Blog Posts"  
       href: about.html
 output:
   html_document:
