@@ -4,26 +4,26 @@ title: "Papers"
 
 ### Preprints
 
-**B**, Pehlevan ["Learning Curves for SGD on Structured Features
+**Bordelon**, Pehlevan ["Learning Curves for SGD on Structured Features
 "](https://arxiv.org/abs/2106.02713) 2021.
 
-Shan, **B** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
+Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
 
-Canatar, **B**, Pehlevan ["Out-of-Distribution Generalization in Kernel Regression"](https://arxiv.org/abs/2106.02261) 2021.
+Canatar, **Bordelon**, Pehlevan ["Out-of-Distribution Generalization in Kernel Regression"](https://arxiv.org/abs/2106.02261) 2021.
 
-**B**, Pehlevan ["Population Codes Enable Learning from Few Examples By Shaping Inductive Bias"](https://www.biorxiv.org/content/10.1101/2021.03.30.437743v1) 2021.
+**Bordelon**, Pehlevan ["Population Codes Enable Learning from Few Examples By Shaping Inductive Bias"](https://www.biorxiv.org/content/10.1101/2021.03.30.437743v1) 2021.
 
 
 ### Publications
 
-Canatar, **B**, and Pehlevan, [“Spectral bias and task-model alignment explain generalization in kernel regression and infinitely wide neural networks”](https://www.nature.com/articles/s41467-021-23103-1) 2021. 
+Canatar, **Bordelon**, and Pehlevan, [“Spectral bias and task-model alignment explain generalization in kernel regression and infinitely wide neural networks”](https://www.nature.com/articles/s41467-021-23103-1) 2021. 
 
-**B**, Canatar, and Pehlevan, [“Spectrum Dependent Learning Curves in Kernel Regression and Wide Neural Networks,”](https://arxiv.org/abs/2002.02561) International Conference of Machine Learning (ICML), 2020.
+**Bordelon**, Canatar, and Pehlevan, [“Spectrum Dependent Learning Curves in Kernel Regression and Wide Neural Networks,”](https://arxiv.org/abs/2002.02561) International Conference of Machine Learning (ICML), 2020.
 
-Atkinson, Mahzoon, Keim, **B**, Pruitt, Charity, and Dickhoff [“Dispersive optical model analysis of Pb-208 generating a neutron-skin prediction beyond the mean field,”](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.101.044303)
+Atkinson, Mahzoon, Keim, **Bordelon**, Pruitt, Charity, and Dickhoff [“Dispersive optical model analysis of Pb-208 generating a neutron-skin prediction beyond the mean field,”](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.101.044303)
 Phys. Rev. C 101, 044303, 2020
 
-Bagley, **B**, Moseley, Wessel ["Pre-Synaptic Pool Modification (PSPM): A supervised learning procedure for recurrent spiking neural networks""](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229083) PLOS ONE, 2020. 
+Bagley, **Bordelon**, Moseley, Wessel ["Pre-Synaptic Pool Modification (PSPM): A supervised learning procedure for recurrent spiking neural networks""](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229083) PLOS ONE, 2020. 
 
 
