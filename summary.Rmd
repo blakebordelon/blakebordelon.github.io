@@ -31,7 +31,7 @@ I recently analyzed the expected test loss of SGD by averaging over the history 
 
 ### How the Structure of Neural Codes Alters Inductive Bias
 
-I am also interested in using learning theory ideas such as sample efficiency to help understand some neuroscience recordings. We use our theory of generalization to study what kinds of associations are easy or hard for visual cortex to learn from a limited number of examples. We also apply our model to predict learning curves for readouts from RNNs.
+I am also interested in using learning theory ideas such as sample efficiency to help understand how the brain learns from experience. We use our theory of generalization to study what kinds of associations are easy or hard for visual cortex to learn from a limited number of examples. We also apply our model to predict learning curves for readouts from RNNs.
 
 ![SGD Learning Curves for Random Feature Models](SVD_neural_code.png){width=65%}
 
