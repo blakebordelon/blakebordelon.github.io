@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Research Summary</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">My Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="summary.html">Research Summary</a>
+</li>
+<li>
+  <a href="papers.html">Papers</a>
+</li>
+<li>
+  <a href="https://blakebordelon.github.io/CV/Blake_Bordelon_CV_Oct2021.pdf">CV</a>
+</li>
+<li>
+  <a href="https://github.com/blakebordelon">Github</a>
+</li>
+<li>
+  <a href="about.html">Blog Posts</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Research Summary</h1>
+
+</div>
+
+
+<div id="machine-learning-theory" class="section level1">
+<h1>Machine Learning Theory</h1>
+<div id="generalization-of-kernel-regression-and-wide-networks" class="section level3">
+<h3>Generalization of Kernel Regression and Wide Networks</h3>
+<p>Attempting to gain analytical understanding of the inductive biases of neural networks and how their generalization performance varies with training sample size, I tried studying neural networks in the limit where they behave as linear functions of their parameters (NTK regime). Working with Abdul Canatar and Cengiz Pehlevan, we used the replica method from statistical physics to calculate expected test error for kernel regression models. We showed that the resulting theory accurately predicts learning curves for wide neural networks in the kernel regime. By solving a data-distribution dependent kernel eigenvalue problem, we showed that kernel eigenfunctions with large eigenvalues are estimated most rapidly as sample size increases. This theory provided a notion of inductive bias for kernel regression, defining what kinds of tasks can be learned most quickly for a given kernel and data distribution.</p>
+<div class="figure">
+<img src="spectrum_learning_curves.png" alt="Learning Curves for Gaussian Data and MNIST" style="width:80.0%" />
+<p class="caption">Learning Curves for Gaussian Data and MNIST</p>
+</div>
+</div>
+<div id="kernel-alignment" class="section level3">
+<h3>Kernel Alignment</h3>
+<p>With Alex Atanasov, I studied how networks from small initialization could still effectively be kernel machines but with a kernel that has adapted to the statistics of the training data. We realized that if the kernel adapts to the data early on while small in overall scale, then the neural network will essentially be a kernel regression solution with that final kernel. We call this phenomenon silent alignment and illustrate it below by plotting RKHS norm for a deep linear NTK over the space of linear functions <span class="math inline">\(\beta\)</span>.</p>
+<div class="figure">
+<img src="alignment_conceptual.png" alt="The Silent Alignment Effect" style="width:80.0%" />
+<p class="caption">The Silent Alignment Effect</p>
+</div>
+</div>
+<div id="capacity-of-group-equivariant-neural-codes" class="section level3">
+<h3>Capacity of Group Equivariant Neural Codes</h3>
+<p>With Matthew Farrell, we calculated the capacity of linear readouts from group equivariant neural codes. Concretely, for a group G, we quantify the fraction of random binary labelings of G orbits in an equivariant neural space which are linearly separable. While the traditional capacity, given by Cover’s function counting theorem, states that the fraction of separable dichotomies is approximately 1 provided that the number of points is smaller than the dimension of the code, our result demonstrated that the G-invariant capacity problem only depends on the number of trivial irreducible representations (dimension of the fixed-point subspace). Below is an example of 2 orbits of <span class="math inline">\(Z_4\)</span> in three dimensions which can only be separated along the one trivial dimension.</p>
+<div class="figure">
+<img src="EquivariantCode.png" alt="Equivariant Code" style="width:80.0%" />
+<p class="caption">Equivariant Code</p>
+</div>
+</div>
+<div id="out-of-distribution-test-error" class="section level3">
+<h3>Out of Distribution Test Error</h3>
+<p>Abdul and I calculated how kernels (and wide NNs) perform under distribution shift, when test and training distributions do not match. The theory relies heavily on an overlap matrix which measures overlaps of train-distribution eigenfunctions over the test measure. Using our theory, we developed an algorithm to optimize the training measure for a fixed learning problem to get a lower expected test error. We find that the optimal training measure is often different than the test measure. We also used gradient descent on our theoretical expressions to identify beneficial and adversarial test measures for a fixed training distribution. We show that our theory accurately captures generalization under distribution shift for kernel methods and wide neural networks.</p>
+<div class="figure">
+<img src="measure_change.png" alt="Measure Change" style="width:60.0%" />
+<p class="caption">Measure Change</p>
+</div>
+</div>
+<div id="feature-learning-and-its-impact-on-training-speed" class="section level3">
+<h3>Feature Learning and its Impact on Training Speed</h3>
+<p>Haozhe Shan and I studied both experimentally and with toy models, how the parameter dependent neural tangent kernel aligns with the training data during optimization. Of particular interest was how the evolution of features influenced the loss dynamics. Experiments showed that the kernel becomes aligned with the outer product of labels, though not perfectly. We developed a toy model where features evolve to minimize the predicted loss in the next time step. In this model, the features and the errors evolve in a coupled elliptical system. The theory reproduces the experimental finding of an additive update to the kernel which is the outer product of labels.</p>
+<div class="figure">
+<img src="kernel_alignment.png" alt="Kernel Evolution" style="width:85.0%" />
+<p class="caption">Kernel Evolution</p>
+</div>
+</div>
+<div id="test-error-dynamics-during-sgd-on-structured-feature-maps" class="section level3">
+<h3>Test Error Dynamics during SGD on Structured Feature Maps</h3>
+<p>I recently analyzed the expected test loss of SGD by averaging over the history of samples for linear readouts from structured feature maps. The test error can be closed in terms of second and fourth moments of the features and, under certain conditions, the test error predicted by Gaussian features with structured correlations accurately predicts the test loss. We show that errors for different eigenmodes are in general coupled but decouple when learning rate is small and batch size is large. I used the theory to extract test loss scalings of wide conv nets and wide MLPs and show that the theory can predict the better power law exponent for conv-nets on CIFAR-10. The theory also shows that there can be an optimal batch size to minimize expected test error if the compute budget is fixed.</p>
+<div class="figure">
+<img src="sgd_plot.png" alt="SGD Learning Curves for Random Feature Models" style="width:85.0%" />
+<p class="caption">SGD Learning Curves for Random Feature Models</p>
+</div>
+</div>
+</div>
+<div id="neuroscience" class="section level1">
+<h1>Neuroscience</h1>
+<div id="how-the-structure-of-neural-codes-alters-inductive-bias" class="section level3">
+<h3>How the Structure of Neural Codes Alters Inductive Bias</h3>
+<p>I am also interested in using learning theory ideas such as sample efficiency to help understand how the brain learns from experience. We use our theory of generalization to study what kinds of associations are easy or hard for visual cortex to learn from a limited number of examples. We also apply our model to predict learning curves for readouts from RNNs.</p>
+<div class="figure">
+<img src="SVD_neural_code.png" alt="SGD Learning Curves for Random Feature Models" style="width:85.0%" />
+<p class="caption">SGD Learning Curves for Random Feature Models</p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
