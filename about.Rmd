@@ -2,6 +2,8 @@
 title: "Blake's Blog"
 ---
 
+### Replica Method for the Machine Learning Theorist
+Check out these blog posts [part one](https://windowsontheory.org/2021/08/11/replica-method-for-the-machine-learning-theorist-part-1-of-2/) and [part two](https://windowsontheory.org/2021/08/11/replica-method-for-the-machine-learning-theorist-part-2-of-2/) as well as the [Tex writeup](https://www.boazbarak.org/Papers/replica.pdf). These were authored by me, Haozhe Shan, Boaz Barak, Abdul Canatar, Cengiz Pehlevan.  
 
 ### Kernel Regression Generalization: Spectral Bias and Multiple Descents 
 This [colab notebook](https://colab.research.google.com/drive/1XNVNLcUzlpWT0jwS5__p0qXhF7P9tGqd?usp=sharing) contains an introduction to an average case analysis of generalization in kernel regression, exploring spectral bias and the non-monotonicity of the risk curves in the presence of noise. 

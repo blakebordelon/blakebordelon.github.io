@@ -237,15 +237,23 @@ $(document).ready(function () {
 <h3>Capacity of Group Equivariant Neural Codes</h3>
 <p>With Matthew Farrell, we calculated the capacity of linear readouts from group equivariant neural codes. Concretely, for a group G, we quantify the fraction of random binary labelings of G orbits in an equivariant neural space which are linearly separable. While the traditional capacity, given by Cover’s function counting theorem, states that the fraction of separable dichotomies is approximately 1 provided that the number of points is smaller than the dimension of the code, our result demonstrated that the G-invariant capacity problem only depends on the number of trivial irreducible representations (dimension of the fixed-point subspace). Below is an example of 2 orbits of <span class="math inline">\(Z_4\)</span> in three dimensions which can only be separated along the one trivial dimension.</p>
 <div class="figure">
-<img src="EquivariantCode.png" alt="Equivariant Code" style="width:80.0%" />
+<img src="EquivariantCode.png" alt="Equivariant Code" style="width:95.0%" />
 <p class="caption">Equivariant Code</p>
+</div>
+</div>
+<div id="test-error-dynamics-during-sgd-on-structured-feature-maps" class="section level3">
+<h3>Test Error Dynamics during SGD on Structured Feature Maps</h3>
+<p>I recently analyzed the expected test loss of SGD by averaging over the history of samples for linear readouts from structured feature maps. The test error can be closed in terms of second and fourth moments of the features and, under certain conditions, the test error predicted by Gaussian features with structured correlations accurately predicts the test loss. We show that errors for different eigenmodes are in general coupled but decouple when learning rate is small and batch size is large. I used the theory to extract test loss scalings of wide conv nets and wide MLPs and show that the theory can predict the better power law exponent for conv-nets on CIFAR-10. The theory also shows that there can be an optimal batch size to minimize expected test error if the compute budget is fixed.</p>
+<div class="figure">
+<img src="sgd_plot.png" alt="SGD Learning Curves for Random Feature Models" style="width:85.0%" />
+<p class="caption">SGD Learning Curves for Random Feature Models</p>
 </div>
 </div>
 <div id="out-of-distribution-test-error" class="section level3">
 <h3>Out of Distribution Test Error</h3>
 <p>Abdul and I calculated how kernels (and wide NNs) perform under distribution shift, when test and training distributions do not match. The theory relies heavily on an overlap matrix which measures overlaps of train-distribution eigenfunctions over the test measure. Using our theory, we developed an algorithm to optimize the training measure for a fixed learning problem to get a lower expected test error. We find that the optimal training measure is often different than the test measure. We also used gradient descent on our theoretical expressions to identify beneficial and adversarial test measures for a fixed training distribution. We show that our theory accurately captures generalization under distribution shift for kernel methods and wide neural networks.</p>
 <div class="figure">
-<img src="measure_change.png" alt="Measure Change" style="width:60.0%" />
+<img src="measure_change.png" alt="Measure Change" style="width:50.0%" />
 <p class="caption">Measure Change</p>
 </div>
 </div>
@@ -257,14 +265,6 @@ $(document).ready(function () {
 <p class="caption">Kernel Evolution</p>
 </div>
 </div>
-<div id="test-error-dynamics-during-sgd-on-structured-feature-maps" class="section level3">
-<h3>Test Error Dynamics during SGD on Structured Feature Maps</h3>
-<p>I recently analyzed the expected test loss of SGD by averaging over the history of samples for linear readouts from structured feature maps. The test error can be closed in terms of second and fourth moments of the features and, under certain conditions, the test error predicted by Gaussian features with structured correlations accurately predicts the test loss. We show that errors for different eigenmodes are in general coupled but decouple when learning rate is small and batch size is large. I used the theory to extract test loss scalings of wide conv nets and wide MLPs and show that the theory can predict the better power law exponent for conv-nets on CIFAR-10. The theory also shows that there can be an optimal batch size to minimize expected test error if the compute budget is fixed.</p>
-<div class="figure">
-<img src="sgd_plot.png" alt="SGD Learning Curves for Random Feature Models" style="width:85.0%" />
-<p class="caption">SGD Learning Curves for Random Feature Models</p>
-</div>
-</div>
 </div>
 <div id="neuroscience" class="section level1">
 <h1>Neuroscience</h1>
@@ -272,8 +272,8 @@ $(document).ready(function () {
 <h3>How the Structure of Neural Codes Alters Inductive Bias</h3>
 <p>I am also interested in using learning theory ideas such as sample efficiency to help understand how the brain learns from experience. We use our theory of generalization to study what kinds of associations are easy or hard for visual cortex to learn from a limited number of examples. We also apply our model to predict learning curves for readouts from RNNs.</p>
 <div class="figure">
-<img src="SVD_neural_code.png" alt="SGD Learning Curves for Random Feature Models" style="width:85.0%" />
-<p class="caption">SGD Learning Curves for Random Feature Models</p>
+<img src="SVD_neural_code.png" alt="Inductive Bias of Readouts from Neural Codes Through SVD" style="width:85.0%" />
+<p class="caption">Inductive Bias of Readouts from Neural Codes Through SVD</p>
 </div>
 </div>
 </div>
