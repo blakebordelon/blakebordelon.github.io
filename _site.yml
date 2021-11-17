@@ -16,6 +16,6 @@ navbar:
       href: about.html
 output:
   html_document:
-    theme: cosmo
-    
+    #theme: cosmo
+    remote_theme: yaoyao-liu/minimal-light
 output_dir: docs
