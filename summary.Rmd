@@ -39,7 +39,7 @@ Abdul and I calculated how kernels (and wide NNs) perform under distribution shi
 
 Haozhe Shan and I studied both experimentally and with toy models, how the parameter dependent neural tangent kernel aligns with the training data during optimization. Of particular interest was how the evolution of features influenced the loss dynamics. Experiments showed that the kernel becomes aligned with the outer product of labels, though not perfectly. We developed a toy model where features evolve to minimize the predicted loss in the next time step. In this model, the features and the errors evolve in a coupled elliptical system. The theory reproduces the experimental finding of an additive update to the kernel which is the outer product of labels. 
 
-![Kernel Evolution](kernel_alignment.png){width=85%}
+![ ](kernel_alignment.png){width=85%}
 
 
 
