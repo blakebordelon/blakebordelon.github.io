@@ -6,7 +6,6 @@ title: "Blake Bordelon's Website"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## About Me
 
 <div class = "row">
   
