@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -69,9 +69,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -96,6 +94,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,7 +111,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -130,6 +130,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,19 +188,85 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -190,7 +293,7 @@ $(document).ready(function () {
   <a href="papers.html">Papers</a>
 </li>
 <li>
-  <a href="https://blakebordelon.github.io/CV/Blake_Bordelon_CV_July.pdf">CV</a>
+  <a href="https://blakebordelon.github.io/CV/Blake_Bordelon_CV_2022.pdf">CV</a>
 </li>
 <li>
   <a href="https://github.com/blakebordelon">Github</a>
@@ -215,47 +318,40 @@ $(document).ready(function () {
 </div>
 
 
-<div id="machine-learning-theory" class="section level1">
-<h1>Machine Learning Theory</h1>
 <div id="generalization-of-kernel-regression-and-wide-networks" class="section level3">
 <h3>Generalization of Kernel Regression and Wide Networks</h3>
 <p>Attempting to gain analytical understanding of the inductive biases of neural networks and how their generalization performance varies with training sample size, I tried studying neural networks in the limit where they behave as linear functions of their parameters (NTK regime). Working with Abdul Canatar and Cengiz Pehlevan, we used the replica method from statistical physics to calculate expected test error for kernel regression models. We showed that the resulting theory accurately predicts learning curves for wide neural networks in the kernel regime. By solving a data-distribution dependent kernel eigenvalue problem, we showed that kernel eigenfunctions with large eigenvalues are estimated most rapidly as sample size increases. This theory provided a notion of inductive bias for kernel regression, defining what kinds of tasks can be learned most quickly for a given kernel and data distribution.</p>
-<div class="figure">
-<img src="spectrum_learning_curves.png" alt="Learning Curves for Gaussian Data and MNIST" style="width:80.0%" />
-<p class="caption">Learning Curves for Gaussian Data and MNIST</p>
+<p><img src="spectrum_learning_curves.png" style="width:80.0%" /></p>
 </div>
+<div id="kernel-alignment" class="section level3">
+<h3>Kernel Alignment</h3>
+<p>With Alex Atanasov, I studied how networks from small initialization could still effectively be kernel machines but with a kernel that has adapted to the statistics of the training data. We realized that if the kernel adapts to the data early on while small in overall scale, then the neural network will essentially be a kernel regression solution with that final kernel. We call this phenomenon silent alignment and illustrate it below by plotting RKHS norm for a deep linear NTK over the space of linear functions <span class="math inline">\(\beta\)</span>.</p>
+<p><img src="alignment_conceptual.png" style="width:80.0%" /></p>
 </div>
-<div id="out-of-distribution-test-error" class="section level3">
-<h3>Out of Distribution Test Error</h3>
-<p>More recently, we showed our theory can be used to calculate what happens to the test risk under distribution shift, when test and training distributions do not match. The theory relies heavily on an overlap matrix which measures overlaps of train-distribution eigenfunctions over the test measure. Using our theory, we developed an algorithm to optimize the training measure for a fixed learning problem to get a lower expected test error. We find that the optimal training measure is often different than the test measure. We also used gradient descent on our theoretical expressions to identify beneficial and adversarial test measures for a fixed training distribution. We show that our theory accurately captures generalization under distribution shift for kernel methods and wide neural networks.</p>
-</div>
-<div id="feature-learning-and-its-impact-on-training-speed" class="section level3">
-<h3>Feature Learning and its Impact on Training Speed</h3>
-<p>Haozhe Shan and I studied both experimentally and with toy models, how the parameter dependent neural tangent kernel aligns with the training data during optimization. Of particular interest was how the evolution of features influenced the loss dynamics. Experiments showed that the kernel becomes aligned with the outer product of labels, though not perfectly. We developed a toy model where features evolve to minimize the predicted loss in the next time step. In this model, the features and the errors evolve in a coupled elliptical system. The theory reproduces the experimental finding of an additive update to the kernel which is the outer product of labels.</p>
-<div class="figure">
-<img src="kernel_alignment.png" alt="Kernel Evolution" style="width:80.0%" />
-<p class="caption">Kernel Evolution</p>
-</div>
+<div id="capacity-of-group-equivariant-neural-codes" class="section level3">
+<h3>Capacity of Group Equivariant Neural Codes</h3>
+<p>With Matthew Farrell, we calculated the capacity of linear readouts from group equivariant neural codes. Concretely, for a group G, we quantify the fraction of random binary labelings of G orbits in an equivariant neural space which are linearly separable. While the traditional capacity, given by Cover’s function counting theorem, states that the fraction of separable dichotomies is approximately 1 provided that the number of points is smaller than the dimension of the code, our result demonstrated that the G-invariant capacity problem only depends on the number of trivial irreducible representations (dimension of the fixed-point subspace). Below is an example of 2 orbits of <span class="math inline">\(Z_4\)</span> in three dimensions which can only be separated along the one trivial dimension.</p>
+<p><img src="EquivariantCode.png" style="width:95.0%" /></p>
 </div>
 <div id="test-error-dynamics-during-sgd-on-structured-feature-maps" class="section level3">
 <h3>Test Error Dynamics during SGD on Structured Feature Maps</h3>
 <p>I recently analyzed the expected test loss of SGD by averaging over the history of samples for linear readouts from structured feature maps. The test error can be closed in terms of second and fourth moments of the features and, under certain conditions, the test error predicted by Gaussian features with structured correlations accurately predicts the test loss. We show that errors for different eigenmodes are in general coupled but decouple when learning rate is small and batch size is large. I used the theory to extract test loss scalings of wide conv nets and wide MLPs and show that the theory can predict the better power law exponent for conv-nets on CIFAR-10. The theory also shows that there can be an optimal batch size to minimize expected test error if the compute budget is fixed.</p>
-<div class="figure">
-<img src="sgd_plot.png" alt="SGD Learning Curves for Random Feature Models" style="width:75.0%" />
-<p class="caption">SGD Learning Curves for Random Feature Models</p>
+<p><img src="sgd_plot.png" style="width:85.0%" /></p>
 </div>
+<div id="out-of-distribution-test-error" class="section level3">
+<h3>Out of Distribution Test Error</h3>
+<p>Abdul and I calculated how kernels (and wide NNs) perform under distribution shift, when test and training distributions do not match. The theory relies heavily on an overlap matrix which measures overlaps of train-distribution eigenfunctions over the test measure. Using our theory, we developed an algorithm to optimize the training measure for a fixed learning problem to get a lower expected test error. We find that the optimal training measure is often different than the test measure. We also used gradient descent on our theoretical expressions to identify beneficial and adversarial test measures for a fixed training distribution. We show that our theory accurately captures generalization under distribution shift for kernel methods and wide neural networks.</p>
+<p><img src="measure_change.png" style="width:50.0%" /></p>
 </div>
+<div id="feature-learning-and-its-impact-on-training-speed" class="section level3">
+<h3>Feature Learning and its Impact on Training Speed</h3>
+<p>Haozhe Shan and I studied both experimentally and with toy models, how the parameter dependent neural tangent kernel aligns with the training data during optimization. Of particular interest was how the evolution of features influenced the loss dynamics. Experiments showed that the kernel becomes aligned with the outer product of labels, though not perfectly. We developed a toy model where features evolve to minimize the predicted loss in the next time step. In this model, the features and the errors evolve in a coupled elliptical system. The theory reproduces the experimental finding of an additive update to the kernel which is the outer product of labels.</p>
+<p><img src="kernel_alignment.png" style="width:85.0%" /></p>
 </div>
-<div id="neuroscience" class="section level1">
-<h1>Neuroscience</h1>
-<div id="how-the-structure-of-neural-codes-alters-inductive-bias" class="section level3">
-<h3>How the Structure of Neural Codes Alters Inductive Bias</h3>
+<div id="the-structure-of-neural-codes-alters-inductive-bias" class="section level3">
+<h3>The Structure of Neural Codes Alters Inductive Bias</h3>
 <p>I am also interested in using learning theory ideas such as sample efficiency to help understand how the brain learns from experience. We use our theory of generalization to study what kinds of associations are easy or hard for visual cortex to learn from a limited number of examples. We also apply our model to predict learning curves for readouts from RNNs.</p>
-<div class="figure">
-<img src="SVD_neural_code.png" alt="SGD Learning Curves for Random Feature Models" style="width:65.0%" />
-<p class="caption">SGD Learning Curves for Random Feature Models</p>
-</div>
-</div>
+<p><img src="SVD_neural_code.png" style="width:85.0%" /></p>
 </div>
 
 

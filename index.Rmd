@@ -11,15 +11,24 @@ knitr::opts_chunk$set(echo = TRUE)
   
 <div class = "col-md-4">
 <br><br>
-![A recent picture of me](headshot.jpg){width=100%}
+![A recent picture of me](IMG_1952.jpg){width=100%}
 </div>
   
 <div class = "col-md-4">
 <br><br>
-I am Blake Bordelon, an applied math PhD student in the [Pehlevan Group](https://pehlevan.seas.harvard.edu/) at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience.
+I am Blake Bordelon, an applied math PhD student in the [Pehlevan Group](https://pehlevan.seas.harvard.edu/) at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience. Before graduate school, I studied physics, engineering, and computer science at [Washington University in St. Louis](https://wustl.edu/). 
+
+My works can be found on [Google Scholar](https://scholar.google.com/citations?user=yeQ8_pgAAAAJ&hl=en). I also occasionally post new preprints on [twitter](https://twitter.com/blake__bordelon).
 </div>
  
+### Recent News
+<div class = "col-md-4">
+<br><br>
 
++ Our work on [dynamical field theory](https://arxiv.org/abs/2205.09653) for infinite width feature learning neural networks accepted to *Neurips* 2022.  
++ Papers on [SGD learning curves](https://openreview.net/forum?id=WPI2vbkAl3Q), the [alignment dynamics of the NTK](https://openreview.net/forum?id=1NvflqAdoom) of during training and the [capacity of group-equivariant neural codes](https://openreview.net/forum?id=_4GFbtOuWq-) were all published at *ICLR* 2022. 
++ Our paper on [out-of-distribution performance of kernels](https://openreview.net/forum?id=-h6Ldc0MO-) was published at *Neurips* 2021.
+</div>
 
 
 

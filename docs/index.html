@@ -69,9 +69,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -96,6 +94,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,7 +111,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -130,6 +130,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,19 +188,85 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -190,7 +293,7 @@ $(document).ready(function () {
   <a href="papers.html">Papers</a>
 </li>
 <li>
-  <a href="https://blakebordelon.github.io/CV/Blake_Bordelon_CV_Oct2021.pdf">CV</a>
+  <a href="https://blakebordelon.github.io/CV/Blake_Bordelon_CV_2022.pdf">CV</a>
 </li>
 <li>
   <a href="https://github.com/blakebordelon">Github</a>
@@ -218,10 +321,23 @@ $(document).ready(function () {
 <div class = "row">
 
 <div class="col-md-4">
-<p><br><br> <img src="headshot.jpg" alt="A recent picture of me" style="width:100.0%" /></p>
+<p><br><br> <img src="IMG_1952.JPG" style="width:100.0%" alt="A recent picture of me" /></p>
 </div>
 <div class="col-md-4">
-<p><br><br> I am Blake Bordelon, an applied math PhD student in the <a href="https://pehlevan.seas.harvard.edu/">Pehlevan Group</a> at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience.</p>
+<p><br><br> I am Blake Bordelon, an applied math PhD student in the <a href="https://pehlevan.seas.harvard.edu/">Pehlevan Group</a> at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience. Before graduate school, I studied physics, engineering, and computer science at <a href="https://wustl.edu/">Washington University in St. Louis</a>.</p>
+<p>My works can be found on <a href="https://scholar.google.com/citations?user=yeQ8_pgAAAAJ&amp;hl=en">Google Scholar</a>. I also occasionally post new preprints on <a href="https://twitter.com/blake__bordelon">twitter</a>.</p>
+</div>
+<div id="recent-news" class="section level3">
+<h3>Recent News</h3>
+<div class="col-md-4">
+<p><br><br></p>
+<ul>
+<li>Our work on <a href="https://arxiv.org/abs/2205.09653">dynamical field theory</a> for infinite width feature learning neural networks accepted to <em>Neurips</em> 2022.<br />
+</li>
+<li>Papers on <a href="https://openreview.net/forum?id=WPI2vbkAl3Q">SGD learning curves</a>, the <a href="https://openreview.net/forum?id=1NvflqAdoom">alignment dynamics of the NTK</a> of during training and the <a href="https://openreview.net/forum?id=_4GFbtOuWq-">capacity of group-equivariant neural codes</a> were all published at <em>ICLR</em> 2022.</li>
+<li>Our paper on <a href="https://openreview.net/forum?id=-h6Ldc0MO-">out-of-distribution performance of kernels</a> was published at <em>Neurips</em> 2021.</li>
+</ul>
+</div>
 </div>
 
 
