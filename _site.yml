@@ -1,19 +1,24 @@
 name: "my-website"
 navbar:
-  title: "My Website"
+  title: " "
   left:
-    - text: "Home"
+    - text: "Blake Bordelon"
       href: index.html
-    - text: "Research Summary"
-      href: summary.html
     - text: "Papers"
       href: papers.html
+    - text: "Research Summary"
+      href: summary.html
     - text: "CV"
       href: https://blakebordelon.github.io/CV/Blake_Bordelon_CV_2022.pdf
-    - text: "Github"
-      href: https://github.com/blakebordelon
     - text: "Blog Posts"  
       href: about.html
+  right:
+    - text: ""
+      icon: fa-envelope-o
+      href: mailto:blake_bordelon@g.harvard.edu                    # CHANGE HERE 
+    - text: ""
+      icon: fa-github
+      href: https://github.com/blakebordelon
 output:
   html_document:
     #theme: cosmo

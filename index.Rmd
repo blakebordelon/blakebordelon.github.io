@@ -1,5 +1,5 @@
 ---
-title: "Blake Bordelon"
+title: ""
 ---
 
 ```{r setup, include=FALSE}
@@ -8,31 +8,57 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 <div class = "row">
-  
-<div class = "col-md-4">
+<div class = "col-md-5">
 <br><br>
 ![A recent picture of me](IMG_1952.jpg){width=100%}
 </div>
-  
-<div class = "col-md-4">
+<div class = "col-md-6">
 <br><br>
-I am Blake Bordelon, an applied math PhD student in the [Pehlevan Group](https://pehlevan.seas.harvard.edu/) at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience. Before graduate school, I studied physics, engineering, and computer science at [Washington University in St. Louis](https://wustl.edu/). 
+I am an applied math PhD student in the [Pehlevan Group](https://pehlevan.seas.harvard.edu/) at Harvard. My research interests lie in the convex hull of machine learning, statistical physics, and theoretical neuroscience. Before graduate school, I studied physics, engineering, and computer science at [Washington University in St. Louis](https://wustl.edu/). 
 
 My works can be found on [Google Scholar](https://scholar.google.com/citations?user=yeQ8_pgAAAAJ&hl=en). I also occasionally post new preprints on [twitter](https://twitter.com/blake__bordelon).
-</div>
- 
-### Recent News
-<div class = "col-md-4">
+
 <br><br>
+</div>
+<br><br>
+</div>
+### Recent News
 
 + Our work on [dynamical field theory](https://arxiv.org/abs/2205.09653) for infinite width feature learning neural networks accepted to *Neurips* 2022.  
 + Papers on [SGD learning curves](https://openreview.net/forum?id=WPI2vbkAl3Q), the [alignment dynamics of the NTK](https://openreview.net/forum?id=1NvflqAdoom) of during training and the [capacity of group-equivariant neural codes](https://openreview.net/forum?id=_4GFbtOuWq-) were all published at *ICLR* 2022. 
 + Our paper on [out-of-distribution performance of kernels](https://openreview.net/forum?id=-h6Ldc0MO-) was published at *Neurips* 2021.
-</div>
 
 
+### Reviewed Publications
+
+- **Bordelon**, Pehlevan [Self-consistent Dynamical Field Theory of Kernel Evolution in Wide Neural Networks](https://arxiv.org/abs/2205.09653). Accepted to *Neurips* 2022. 
+
+- Atanasov, **Bordelon**, Pehlevan ["Neural Networks as Kernel Learners: The Silent Alignment Effect"](https://arxiv.org/abs/2111.00034) (Equal Contribution), *ICLR* 2022.
+
+- Farrell, **Bordelon**, Trivedi, Pehlevan ["Capacity of Group-invariant Linear Readouts from Equivariant Representations: How Many Objects can be Linearly Classified Under All Possible Views?"](https://arxiv.org/abs/2110.07472) (Equal Contribution), *ICLR* 2022.
+
+- **Bordelon**, Pehlevan ["Learning Curves for SGD on Structured Features
+"](https://arxiv.org/abs/2106.02713), *ICLR* 2022.
 
 
+- Canatar, **Bordelon**, Pehlevan ["Out-of-Distribution Generalization in Kernel Regression"](https://arxiv.org/abs/2106.02261), *Neurips* 2021.
+
+- Canatar, **Bordelon**, and Pehlevan, [“Spectral bias and task-model alignment explain generalization in kernel regression and infinitely wide neural networks”](https://www.nature.com/articles/s41467-021-23103-1) *Nature Communications* 2021. 
+
+- **Bordelon**, Canatar, and Pehlevan, [“Spectrum Dependent Learning Curves in Kernel Regression and Wide Neural Networks,”](https://arxiv.org/abs/2002.02561) *ICML*, 2020.
+
+- Atkinson, Mahzoon, Keim, **Bordelon**, Pruitt, Charity, and Dickhoff [“Dispersive optical model analysis of Pb-208 generating a neutron-skin prediction beyond the mean field,”](https://journals.aps.org/prc/abstract/10.1103/PhysRevC.101.044303)
+*Phys. Rev. C* 101, 044303, 2020
+
+- Bagley, **Bordelon**, Moseley, Wessel ["Pre-Synaptic Pool Modification (PSPM): A supervised learning procedure for recurrent spiking neural networks""](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229083) *PLOS ONE*, 2020. 
+
+
+### Preprints
+
+- Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
+"](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
+
+- **Bordelon**, Pehlevan ["Population Codes Enable Learning from Few Examples By Shaping Inductive Bias"](https://www.biorxiv.org/content/10.1101/2021.03.30.437743v1) 2021.
 
 
 
