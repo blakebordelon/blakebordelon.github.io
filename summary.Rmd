@@ -3,12 +3,16 @@ title: "Research Summary"
 ---
 
 
-
 ### Generalization of Kernel Regression and Wide Networks
 
 Attempting to gain analytical understanding of the inductive biases of neural networks and how their generalization performance varies with training sample size, I tried studying neural networks in the limit where they behave as linear functions of their parameters (NTK regime). Working with Abdul Canatar and Cengiz Pehlevan, we used the replica method from statistical physics to calculate expected test error for kernel regression models. We showed that the resulting theory accurately predicts learning curves for wide neural networks in the kernel regime. By solving a data-distribution dependent kernel eigenvalue problem, we showed that kernel eigenfunctions with large eigenvalues are estimated most rapidly as sample size increases. This theory provided a notion of inductive bias for kernel regression, defining what kinds of tasks can be learned most quickly for a given kernel and data distribution.
 
 ![ ](spectrum_learning_curves.png){width=80%}
+
+### Dynamical Field Theory for Wide Feature Learning Neural Networks
+Dynamical mean field theory (DMFT) is a heuristic physics method for computing autocorrelation functions of high dimensional disordered dynamical systems. Using this method, we derive self-consistent equations for the evolution of a neural network's neural tangent kernel and give a numerical procedure to approximately solve the dynamics. We study these dynamics across different richness scales $\gamma_0$ which quantify the amount of feature learning performed during training.
+
+![](dmft_figure.png){width=80%}
 
 ### Kernel Alignment
 
