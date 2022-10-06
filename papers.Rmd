@@ -29,6 +29,8 @@ title: "Papers"
 
 ### Preprints
 
+- **Bordelon**, Pehlevan ["The Influence of Learning Rule on Representation Dynamics in Wide Neural Networks"](https://arxiv.org/abs/2210.02157) 2022.
+
 - Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
 

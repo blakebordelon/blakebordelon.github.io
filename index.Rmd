@@ -23,7 +23,7 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 <br><br>
 </div>
 ### Recent News
-
++ New [preprint](https://arxiv.org/abs/2210.02157) about how representation dynamics depends on learning rule in infinite width networks.
 + Our work on [dynamical field theory](https://arxiv.org/abs/2205.09653) for infinite width feature learning neural networks accepted to *Neurips* 2022.  
 + Papers on [SGD learning curves](https://openreview.net/forum?id=WPI2vbkAl3Q), the [alignment dynamics of the NTK](https://openreview.net/forum?id=1NvflqAdoom) of during training and the [capacity of group-equivariant neural codes](https://openreview.net/forum?id=_4GFbtOuWq-) were all published at *ICLR* 2022. 
 + Our paper on [out-of-distribution performance of kernels](https://openreview.net/forum?id=-h6Ldc0MO-) was published at *Neurips* 2021.
@@ -54,6 +54,8 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 
 
 ### Preprints
+
+- **Bordelon**, Pehlevan ["The Influence of Learning Rule on Representation Dynamics in Wide Neural Networks"](https://arxiv.org/abs/2210.02157) 2022.
 
 - Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
