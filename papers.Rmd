@@ -5,6 +5,13 @@ title: "Papers"
 
 ### Reviewed Publications
 
+
+- **Bordelon**, Pehlevan ["The Influence of Learning Rule on Representation Dynamics in Wide Neural Networks"](https://openreview.net/forum?id=nZ2NtpolC5-), *ICLR* 2023. Notable-top 25%.
+
+- Atanasov, **Bordelon**, Sainathan, Pehlevan [The Onset of Variance-Limited Behavior for Networks in the Lazy and Rich Regimes](https://openreview.net/forum?id=JLINxPOVTh7) (Equal Contribution), *ICLR* 2023. 
+
+- **Bordelon**, Pehlevan ["Population Codes Enable Learning from Few Examples By Shaping Inductive Bias"](https://elifesciences.org/articles/78606), *Elife* 2022.
+
 - **Bordelon**, Pehlevan [Self-consistent Dynamical Field Theory of Kernel Evolution in Wide Neural Networks](https://arxiv.org/abs/2205.09653). Accepted to *Neurips* 2022. 
 
 - Atanasov, **Bordelon**, Pehlevan ["Neural Networks as Kernel Learners: The Silent Alignment Effect"](https://arxiv.org/abs/2111.00034) (Equal Contribution), *ICLR* 2022.
@@ -29,10 +36,9 @@ title: "Papers"
 
 ### Preprints
 
-- **Bordelon**, Pehlevan ["The Influence of Learning Rule on Representation Dynamics in Wide Neural Networks"](https://arxiv.org/abs/2210.02157) 2022.
 
 - Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
 
-- **Bordelon**, Pehlevan ["Population Codes Enable Learning from Few Examples By Shaping Inductive Bias"](https://www.biorxiv.org/content/10.1101/2021.03.30.437743v1) 2021.
+
 

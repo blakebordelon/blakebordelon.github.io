@@ -23,23 +23,27 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 <br><br>
 </div>
 ### Recent News
-+ New [preprint](https://arxiv.org/abs/2210.02157) about how representation dynamics depends on learning rule in infinite width networks.
-+ Our work on [dynamical field theory](https://arxiv.org/abs/2205.09653) for infinite width feature learning neural networks accepted to *Neurips* 2022.  
-+ Papers on [SGD learning curves](https://openreview.net/forum?id=WPI2vbkAl3Q), the [alignment dynamics of the NTK](https://openreview.net/forum?id=1NvflqAdoom) of during training and the [capacity of group-equivariant neural codes](https://openreview.net/forum?id=_4GFbtOuWq-) were all published at *ICLR* 2022. 
-+ Our paper on [out-of-distribution performance of kernels](https://openreview.net/forum?id=-h6Ldc0MO-) was published at *Neurips* 2021.
++ Papers to appear at ICLR 2023 on [learning rule dependence of feature dynamics](https://openreview.net/forum?id=nZ2NtpolC5-) and the [deviations of infinite width behavior](https://openreview.net/forum?id=JLINxPOVTh7) in finite network learning curves.
++ Study of sample efficient learning from [population codes](https://elifesciences.org/articles/78606) is now published at Elife.
++ Our work on [dynamical field theory](https://openreview.net/forum?id=sipwrPCrIS) for infinite width feature learning neural networks appeared at *Neurips* 2022.  
 
 
 ### Reviewed Publications
+ 
+- **Bordelon**, Pehlevan ["The Influence of Learning Rule on Representation Dynamics in Wide Neural Networks"](https://openreview.net/forum?id=nZ2NtpolC5-), *ICLR* 2023. Notable-top 25%.
 
-- **Bordelon**, Pehlevan [Self-consistent Dynamical Field Theory of Kernel Evolution in Wide Neural Networks](https://arxiv.org/abs/2205.09653). Accepted to *Neurips* 2022. 
+- Atanasov, **Bordelon**, Sainathan, Pehlevan [The Onset of Variance-Limited Behavior for Networks in the Lazy and Rich Regimes](https://openreview.net/forum?id=JLINxPOVTh7) (Equal Contribution), *ICLR* 2023. 
+
+- **Bordelon**, Pehlevan ["Population Codes Enable Learning from Few Examples By Shaping Inductive Bias"](https://elifesciences.org/articles/78606), *Elife* 2022.
+
+- **Bordelon**, Pehlevan [Self-consistent Dynamical Field Theory of Kernel Evolution in Wide Neural Networks](https://openreview.net/forum?id=sipwrPCrIS). *Neurips* 2022. 
 
 - Atanasov, **Bordelon**, Pehlevan ["Neural Networks as Kernel Learners: The Silent Alignment Effect"](https://arxiv.org/abs/2111.00034) (Equal Contribution), *ICLR* 2022.
 
 - Farrell, **Bordelon**, Trivedi, Pehlevan ["Capacity of Group-invariant Linear Readouts from Equivariant Representations: How Many Objects can be Linearly Classified Under All Possible Views?"](https://arxiv.org/abs/2110.07472) (Equal Contribution), *ICLR* 2022.
 
 - **Bordelon**, Pehlevan ["Learning Curves for SGD on Structured Features
-"](https://arxiv.org/abs/2106.02713), *ICLR* 2022.
-
+"](https://openreview.net/forum?id=WPI2vbkAl3Q), *ICLR* 2022.
 
 - Canatar, **Bordelon**, Pehlevan ["Out-of-Distribution Generalization in Kernel Regression"](https://arxiv.org/abs/2106.02261), *Neurips* 2021.
 
@@ -55,12 +59,10 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 
 ### Preprints
 
-- **Bordelon**, Pehlevan ["The Influence of Learning Rule on Representation Dynamics in Wide Neural Networks"](https://arxiv.org/abs/2210.02157) 2022.
-
 - Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
 
-- **Bordelon**, Pehlevan ["Population Codes Enable Learning from Few Examples By Shaping Inductive Bias"](https://www.biorxiv.org/content/10.1101/2021.03.30.437743v1) 2021.
+
 
 
 
