@@ -23,13 +23,21 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 <br><br>
 </div>
 ### Recent News
-+ Papers to appear at ICLR 2023 on [learning rule dependence of feature dynamics](https://openreview.net/forum?id=nZ2NtpolC5-) and the [deviations of infinite width behavior](https://openreview.net/forum?id=JLINxPOVTh7) in finite network learning curves.
-+ Study of sample efficient learning from [population codes](https://elifesciences.org/articles/78606) is now published at Elife.
-+ Our work on [dynamical field theory](https://openreview.net/forum?id=sipwrPCrIS) for infinite width feature learning neural networks appeared at *Neurips* 2022.  
++ Papers to appear at Neurips 2023 on (1) [finite width corrections to the DMFT limit](https://openreview.net/forum?id=fKwG6grp8o), (2) empirical study of [convergence to infinite width feature learning limit](https://openreview.net/forum?id=LTdfYIvbHc) and (3) the loss dynamics of [temporal difference learning in high dimension](https://openreview.net/forum?id=Tj0eXVPnRX).
++ We will be giving a presentation on ["Deptwise Hyperparameter Transfer in ResNets"](https://arxiv.org/abs/2309.16620) at the ["M3L"](https://sites.google.com/view/m3l-2023/home) workshop at Neurips.
++ Our work on [dynamical mean field theory for feature learning](https://iopscience.iop.org/article/10.1088/1742-5468/ad01b0) was chosen for the JSTAT special issue on Machine Learning. 
+ 
 
 
 ### Reviewed Publications
+
+- **Bordelon**, Pehlevan ["Dynamics of Finite Width Kernel and Prediction Fluctuations in Mean Field Neural Networks"](https://openreview.net/forum?id=fKwG6grp8o), *Neurips* spotlight 2023.
  
+- **Bordelon**, Masset, Kuo, Pehlevan ["Loss Dynamics of Temporal Difference Reinforcement Learning"](https://openreview.net/forum?id=Tj0eXVPnRX), *Neurips* 2023.
+
+- Vyas, Atanasov, **Bordelon**, Morwani, Sainathan, Pehlevan [Feature-Learning Networks are consistent across widths at realistic scales](https://openreview.net/forum?id=LTdfYIvbHc) *Neurips* 2023 (equal contribution of first three authors).
+
+
 - **Bordelon**, Pehlevan ["The Influence of Learning Rule on Representation Dynamics in Wide Neural Networks"](https://openreview.net/forum?id=nZ2NtpolC5-), *ICLR* 2023. Notable-top 25%.
 
 - Atanasov, **Bordelon**, Sainathan, Pehlevan [The Onset of Variance-Limited Behavior for Networks in the Lazy and Rich Regimes](https://openreview.net/forum?id=JLINxPOVTh7) (Equal Contribution), *ICLR* 2023. 
@@ -58,6 +66,10 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 
 
 ### Preprints
+
+- **Bordelon**, Noci, Li, Hanin, Pehlevan. ["Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit"](https://arxiv.org/abs/2309.16620) 2023. 
+
+- Kumar, **Bordelon**, Gershman, Pehlevan ["Grokking as the Transition from Lazy to Rich Training Dynamics"](https://arxiv.org/abs/2310.06110) 2023.
 
 - Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
