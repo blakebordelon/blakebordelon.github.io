@@ -14,11 +14,35 @@ Dynamical mean field theory (DMFT) is a heuristic physics method for computing a
 
 ![](dmft_figure.png){width=80%}
 
+### Learning Dynamics in Large Width and Depth Limits: Depthwise Hyperparameter Transfer
+
+With Lorenzo Noci, Mufan Bill Li, Boris Hanin and Cengiz Pehlevan, we studied large depth residual networks and their dynamics at infinite width and depth. Ordinary parameterizations of ResNets do not achieve consistent dependence on hyperparameters across depths, but we showed that under a certain scaling of the parameters and learning rates, the network can exhibit consistent optimal hyperparameters across both widths and depths. 
+
+
+![](depthwise_transfer.png){width=80%}
+
+We also used DMFT methods to analyze the asymptotic convergence to the limiting dynamics. The convergence in width and depth commute for any finite training times. 
+
+![](large_depth_convg.png){width=80%}
+
+### Loss Dynamics of Temporal Difference Reinforcement Learning
+
+With Paul Masset, Henry Kuo and Cengiz Pehlevan we studied how the structure of feature maps, policy, learning rate, discount factor all influence the learning dynamics of value estimation in high dimensions. 
+
+![](TD_RL_plots.png){width=80%}
+
 ### Kernel Alignment
 
 With Alex Atanasov, I studied how networks from small initialization could still effectively be kernel machines but with a kernel that has adapted to the statistics of the training data. We realized that if the kernel adapts to the data early on while small in overall scale, then the neural network will essentially be a kernel regression solution with that final kernel. We call this phenomenon silent alignment and illustrate it below by plotting RKHS norm for a deep linear NTK over the space of linear functions $\beta$. 
 
 ![ ](alignment_conceptual.png){width=80%}
+
+
+### The Structure of Neural Codes Alters Inductive Bias
+
+I am also interested in using learning theory ideas such as sample efficiency to help understand how the brain learns from experience. We use our theory of generalization to study what kinds of associations are easy or hard for visual cortex to learn from a limited number of examples. We also apply our model to predict learning curves for readouts from RNNs.
+
+![ ](SVD_neural_code.png){width=85%}
 
 ### Capacity of Group Equivariant Neural Codes
 
@@ -48,11 +72,6 @@ Haozhe Shan and I studied both experimentally and with toy models, how the param
 
 
 
-### The Structure of Neural Codes Alters Inductive Bias
-
-I am also interested in using learning theory ideas such as sample efficiency to help understand how the brain learns from experience. We use our theory of generalization to study what kinds of associations are easy or hard for visual cortex to learn from a limited number of examples. We also apply our model to predict learning curves for readouts from RNNs.
-
-![ ](SVD_neural_code.png){width=85%}
 
 
 

@@ -340,10 +340,27 @@ $(document).ready(function () {
 <p>Dynamical mean field theory (DMFT) is a heuristic physics method for computing autocorrelation functions of high dimensional disordered dynamical systems. Using this method, we derive self-consistent equations for the evolution of a neural network’s neural tangent kernel and give a numerical procedure to approximately solve the dynamics. We study these dynamics across different richness scales <span class="math inline">\(\gamma_0\)</span> which quantify the amount of feature learning performed during training.</p>
 <p><img src="dmft_figure.png" style="width:80.0%" /></p>
 </div>
+<div id="learning-dynamics-in-large-depth-limits-depthwise-hyperparameter-transfer" class="section level3">
+<h3>Learning Dynamics in Large Depth Limits: Depthwise Hyperparameter Transfer</h3>
+<p>With Lorenzo Noci, Mufan Bill Li, Boris Hanin and Cengiz Pehlevan, we studied large depth residual networks and their dynamics at infinite width and depth. Ordinary parameterizations of ResNets do not achieve consistent dependence on hyperparameters across depths, but we showed that under a certain scaling of the parameters and learning rates, the network can exhibit consistent optimal hyperparameters across both widths and depths.</p>
+<p><img src="depthwise_transfer.png" style="width:80.0%" /></p>
+<p>We also used DMFT methods to analyze the asymptotic convergence to the limiting dynamics. The convergence in width and depth commute for any finite training times.</p>
+<p><img src="large_depth_convg.png" style="width:80.0%" /></p>
+</div>
+<div id="loss-dynamics-of-temporal-difference-reinforcement-learning" class="section level3">
+<h3>Loss Dynamics of Temporal Difference Reinforcement Learning</h3>
+<p>With Paul Masset, Henry Kuo and Cengiz Pehlevan we studied how the structure of feature maps, policy, learning rate, discount factor all influence the learning dynamics of value estimation in high dimensions.</p>
+<p><img src="TD_RL_plots.png" style="width:80.0%" /></p>
+</div>
 <div id="kernel-alignment" class="section level3">
 <h3>Kernel Alignment</h3>
 <p>With Alex Atanasov, I studied how networks from small initialization could still effectively be kernel machines but with a kernel that has adapted to the statistics of the training data. We realized that if the kernel adapts to the data early on while small in overall scale, then the neural network will essentially be a kernel regression solution with that final kernel. We call this phenomenon silent alignment and illustrate it below by plotting RKHS norm for a deep linear NTK over the space of linear functions <span class="math inline">\(\beta\)</span>.</p>
 <p><img src="alignment_conceptual.png" style="width:80.0%" /></p>
+</div>
+<div id="the-structure-of-neural-codes-alters-inductive-bias" class="section level3">
+<h3>The Structure of Neural Codes Alters Inductive Bias</h3>
+<p>I am also interested in using learning theory ideas such as sample efficiency to help understand how the brain learns from experience. We use our theory of generalization to study what kinds of associations are easy or hard for visual cortex to learn from a limited number of examples. We also apply our model to predict learning curves for readouts from RNNs.</p>
+<p><img src="SVD_neural_code.png" style="width:85.0%" /></p>
 </div>
 <div id="capacity-of-group-equivariant-neural-codes" class="section level3">
 <h3>Capacity of Group Equivariant Neural Codes</h3>
@@ -364,11 +381,6 @@ $(document).ready(function () {
 <h3>Feature Learning and its Impact on Training Speed</h3>
 <p>Haozhe Shan and I studied both experimentally and with toy models, how the parameter dependent neural tangent kernel aligns with the training data during optimization. Of particular interest was how the evolution of features influenced the loss dynamics. Experiments showed that the kernel becomes aligned with the outer product of labels, though not perfectly. We developed a toy model where features evolve to minimize the predicted loss in the next time step. In this model, the features and the errors evolve in a coupled elliptical system. The theory reproduces the experimental finding of an additive update to the kernel which is the outer product of labels.</p>
 <p><img src="kernel_alignment.png" style="width:85.0%" /></p>
-</div>
-<div id="the-structure-of-neural-codes-alters-inductive-bias" class="section level3">
-<h3>The Structure of Neural Codes Alters Inductive Bias</h3>
-<p>I am also interested in using learning theory ideas such as sample efficiency to help understand how the brain learns from experience. We use our theory of generalization to study what kinds of associations are easy or hard for visual cortex to learn from a limited number of examples. We also apply our model to predict learning curves for readouts from RNNs.</p>
-<p><img src="SVD_neural_code.png" style="width:85.0%" /></p>
 </div>
 
 
