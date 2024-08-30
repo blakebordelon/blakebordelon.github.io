@@ -9,6 +9,16 @@ Attempting to gain analytical understanding of the inductive biases of neural ne
 
 ![ ](spectrum_learning_curves.png){width=80%}
 
+#### Dynamical Model of Neural Scaling Laws
+
+Recently I extended this kernel generalization model with Alex Atanasov and Cengiz Pehlevan to study gradient descent dynamics and finite width. The resulting theory can be used to derive compute optimal scaling laws where model size and training time can be chosen optimally under a compute budget. 
+
+
+![ ](N_t_scaling.png){width=40%} ![ ](compute_optimal.png){width=40%} 
+
+
+
+
 ### Dynamical Field Theory for Wide Feature Learning Neural Networks
 Dynamical mean field theory (DMFT) is a heuristic physics method for computing autocorrelation functions of high dimensional disordered dynamical systems. Using this method, we derive self-consistent equations for the evolution of a neural network's neural tangent kernel and give a numerical procedure to approximately solve the dynamics. We study these dynamics across different richness scales $\gamma_0$ which quantify the amount of feature learning performed during training.
 
@@ -23,7 +33,14 @@ With Lorenzo Noci, Mufan Bill Li, Boris Hanin and Cengiz Pehlevan, we studied la
 
 We also used DMFT methods to analyze the asymptotic convergence to the limiting dynamics. The convergence in width and depth commute for any finite training times. 
 
-![](large_depth_convg.png){width=80%}
+![](large_depth_convg.png){width=70%}
+
+### Infinite Width, Head and Depth Limits of Transformers
+
+With Hamza Chadhry and Cengiz Pehlevan, I worked out similar DMFT limits for transformer models with self attention layers. We identified different ways of taking infinite limits including taking the dimension per head to infinity or the number of heads to infinity. We showed that the infinite dimension per head limits causes attention heads to collapse to the same dynamics, while the infinite head limit maintains diversity across attention heads. We also investigate different types of infinite depth limits in these models. 
+
+![](head_limit.png){width=70%}
+
 
 ### Loss Dynamics of Temporal Difference Reinforcement Learning
 

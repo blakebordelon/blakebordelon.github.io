@@ -22,14 +22,21 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 </div>
 <br><br>
 </div>
+
 ### Recent News
-+ Papers to appear at Neurips 2023 on (1) [finite width corrections to the DMFT limit](https://openreview.net/forum?id=fKwG6grp8o), (2) empirical study of [convergence to infinite width feature learning limit](https://openreview.net/forum?id=LTdfYIvbHc) and (3) the loss dynamics of [temporal difference learning in high dimension](https://openreview.net/forum?id=Tj0eXVPnRX).
-+ We will be giving a presentation on ["Deptwise Hyperparameter Transfer in ResNets"](https://arxiv.org/abs/2309.16620) at the ["M3L"](https://sites.google.com/view/m3l-2023/home) workshop at Neurips.
-+ Our work on [dynamical mean field theory for feature learning](https://iopscience.iop.org/article/10.1088/1742-5468/ad01b0) was chosen for the JSTAT special issue on Machine Learning. 
- 
++ We have a new preprint on different types of infinite width and depth [limits in transformers](https://arxiv.org/abs/2405.15712). 
++ I recenly helped teach at Analytical Connectionism Summer School 2024. Check out some [Google colab exercises](https://colab.research.google.com/drive/1Uqbg5anUtyWNKnZBoSce6SVn0Ehh8f_W?authuser=1) on mean field theory, random matrix theory, and scaling limits of neural networks. 
++ I gave a long 1:45 talk at ICTP Junior Theoretical Neuroscientist Workshops about several recent papers. [The recording can be found here](https://video.ictp.it/WEB/2024/2024_06_03-smr3943/2024_06_04-14_15-smr3943.mp4). 
++ Some blog posts ( [part 1](https://kempnerinstitute.harvard.edu/research/deeper-learning/infinite-limits-of-neural-networks/) and [part 2](https://kempnerinstitute.harvard.edu/research/deeper-learning/a-dynamical-model-of-neural-scaling-laws/)) about our recent works on infinite limits and neural scaling laws were posted by the Kempner instute.
 
 
 ### Reviewed Publications
+
+- **Bordelon**, Atanasov, Pehlevan ["A Dynamical Model of Neural Scaling Laws"](https://arxiv.org/abs/2402.01092) *ICML* 2024. 
+
+- **Bordelon**, Noci, Li, Hanin, Pehlevan ["Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit"](https://openreview.net/forum?id=KZJehvRKGD) *ICLR* 2024
+
+- Kumar, **Bordelon**, Gershman, Pehlevan ["Grokking as the Transition from Lazy to Rich Training Dynamics"](https://openreview.net/forum?id=vt5mnLVIVo) *ICLR* 2024
 
 - **Bordelon**, Pehlevan ["Dynamics of Finite Width Kernel and Prediction Fluctuations in Mean Field Neural Networks"](https://openreview.net/forum?id=fKwG6grp8o), *Neurips* spotlight 2023.
  
@@ -67,9 +74,7 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 
 ### Preprints
 
-- **Bordelon**, Noci, Li, Hanin, Pehlevan. ["Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit"](https://arxiv.org/abs/2309.16620) 2023. 
-
-- Kumar, **Bordelon**, Gershman, Pehlevan ["Grokking as the Transition from Lazy to Rich Training Dynamics"](https://arxiv.org/abs/2310.06110) 2023.
+- **Bordelon**, Chaudhry, Pehlevan ["Infinite Limits of Multi-head Transformer Dynamics"](https://arxiv.org/abs/2405.15712)
 
 - Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.

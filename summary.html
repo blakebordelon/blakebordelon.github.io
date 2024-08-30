@@ -295,7 +295,7 @@ $(document).ready(function () {
   <a href="summary.html">Research Summary</a>
 </li>
 <li>
-  <a href="https://blakebordelon.github.io/CV/Blake_Bordelon_CV_2023.pdf">CV</a>
+  <a href="https://blakebordelon.github.io/CV/Blake_Bordelon_CV_2024_Fall.pdf">CV</a>
 </li>
 <li>
   <a href="about.html">Blog Posts</a>
@@ -334,18 +334,28 @@ $(document).ready(function () {
 <h3>Generalization of Kernel Regression and Wide Networks</h3>
 <p>Attempting to gain analytical understanding of the inductive biases of neural networks and how their generalization performance varies with training sample size, I tried studying neural networks in the limit where they behave as linear functions of their parameters (NTK regime). Working with Abdul Canatar and Cengiz Pehlevan, we used the replica method from statistical physics to calculate expected test error for kernel regression models. We showed that the resulting theory accurately predicts learning curves for wide neural networks in the kernel regime. By solving a data-distribution dependent kernel eigenvalue problem, we showed that kernel eigenfunctions with large eigenvalues are estimated most rapidly as sample size increases. This theory provided a notion of inductive bias for kernel regression, defining what kinds of tasks can be learned most quickly for a given kernel and data distribution.</p>
 <p><img src="spectrum_learning_curves.png" style="width:80.0%" /></p>
+<div id="dynamical-model-of-neural-scaling-laws" class="section level4">
+<h4>Dynamical Model of Neural Scaling Laws</h4>
+<p>Recently I extended this kernel generalization model with Alex Atanasov and Cengiz Pehlevan to study gradient descent dynamics and finite width. The resulting theory can be used to derive compute optimal scaling laws where model size and training time can be chosen optimally under a compute budget.</p>
+<p><img src="N_t_scaling.png" style="width:40.0%" /> <img src="compute_optimal.png" style="width:40.0%" /></p>
+</div>
 </div>
 <div id="dynamical-field-theory-for-wide-feature-learning-neural-networks" class="section level3">
 <h3>Dynamical Field Theory for Wide Feature Learning Neural Networks</h3>
 <p>Dynamical mean field theory (DMFT) is a heuristic physics method for computing autocorrelation functions of high dimensional disordered dynamical systems. Using this method, we derive self-consistent equations for the evolution of a neural network’s neural tangent kernel and give a numerical procedure to approximately solve the dynamics. We study these dynamics across different richness scales <span class="math inline">\(\gamma_0\)</span> which quantify the amount of feature learning performed during training.</p>
 <p><img src="dmft_figure.png" style="width:80.0%" /></p>
 </div>
-<div id="learning-dynamics-in-large-depth-limits-depthwise-hyperparameter-transfer" class="section level3">
-<h3>Learning Dynamics in Large Depth Limits: Depthwise Hyperparameter Transfer</h3>
+<div id="learning-dynamics-in-large-width-and-depth-limits-depthwise-hyperparameter-transfer" class="section level3">
+<h3>Learning Dynamics in Large Width and Depth Limits: Depthwise Hyperparameter Transfer</h3>
 <p>With Lorenzo Noci, Mufan Bill Li, Boris Hanin and Cengiz Pehlevan, we studied large depth residual networks and their dynamics at infinite width and depth. Ordinary parameterizations of ResNets do not achieve consistent dependence on hyperparameters across depths, but we showed that under a certain scaling of the parameters and learning rates, the network can exhibit consistent optimal hyperparameters across both widths and depths.</p>
 <p><img src="depthwise_transfer.png" style="width:80.0%" /></p>
 <p>We also used DMFT methods to analyze the asymptotic convergence to the limiting dynamics. The convergence in width and depth commute for any finite training times.</p>
-<p><img src="large_depth_convg.png" style="width:80.0%" /></p>
+<p><img src="large_depth_convg.png" style="width:70.0%" /></p>
+</div>
+<div id="infinite-width-head-and-depth-limits-of-transformers" class="section level3">
+<h3>Infinite Width, Head and Depth Limits of Transformers</h3>
+<p>With Hamza Chadhry and Cengiz Pehlevan, I worked out similar DMFT limits for transformer models with self attention layers. We identified different ways of taking infinite limits including taking the dimension per head to infinity or the number of heads to infinity. We showed that the infinite dimension per head limits causes attention heads to collapse to the same dynamics, while the infinite head limit maintains diversity across attention heads. We also investigate different types of infinite depth limits in these models.</p>
+<p><img src="head_limit.png" style="width:70.0%" /></p>
 </div>
 <div id="loss-dynamics-of-temporal-difference-reinforcement-learning" class="section level3">
 <h3>Loss Dynamics of Temporal Difference Reinforcement Learning</h3>

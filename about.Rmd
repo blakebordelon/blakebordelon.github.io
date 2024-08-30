@@ -2,6 +2,10 @@
 title: "Blog Posts"
 ---
 
+### Deeper Learning Blog Posts from Kempner Institute
+
+[Infinite Limits of Neural Networks](https://kempnerinstitute.harvard.edu/research/deeper-learning/infinite-limits-of-neural-networks/) and [A Dynamical Model of Neural Scaling Laws](https://kempnerinstitute.harvard.edu/research/deeper-learning/a-dynamical-model-of-neural-scaling-laws/)
+
 ### Replica Method for the Machine Learning Theorist
 Check out these blog posts [part one](https://windowsontheory.org/2021/08/11/replica-method-for-the-machine-learning-theorist-part-1-of-2/) and [part two](https://windowsontheory.org/2021/08/11/replica-method-for-the-machine-learning-theorist-part-2-of-2/) as well as the [Tex writeup](https://www.boazbarak.org/Papers/replica.pdf). These were authored by me, Haozhe Shan, Boaz Barak, Abdul Canatar, Cengiz Pehlevan.  
 

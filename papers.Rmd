@@ -6,6 +6,20 @@ title: "Papers"
 ### Reviewed Publications
 
 
+- **Bordelon**, Atanasov, Pehlevan ["A Dynamical Model of Neural Scaling Laws"](https://arxiv.org/abs/2402.01092) *ICML* 2024. 
+
+- **Bordelon**, Noci, Li, Hanin, Pehlevan ["Depthwise Hyperparameter Transfer in Residual Networks: Dynamics and Scaling Limit"](https://openreview.net/forum?id=KZJehvRKGD) *ICLR* 2024
+
+- Kumar, **Bordelon**, Gershman, Pehlevan ["Grokking as the Transition from Lazy to Rich Training Dynamics"](https://openreview.net/forum?id=vt5mnLVIVo) *ICLR* 2024
+
+
+- **Bordelon**, Pehlevan ["Dynamics of Finite Width Kernel and Prediction Fluctuations in Mean Field Neural Networks"](https://openreview.net/forum?id=fKwG6grp8o), *Neurips* spotlight 2023.
+ 
+- **Bordelon**, Masset, Kuo, Pehlevan ["Loss Dynamics of Temporal Difference Reinforcement Learning"](https://openreview.net/forum?id=Tj0eXVPnRX), *Neurips* 2023.
+
+- Vyas, Atanasov, **Bordelon**, Morwani, Sainathan, Pehlevan [Feature-Learning Networks are consistent across widths at realistic scales](https://openreview.net/forum?id=LTdfYIvbHc) *Neurips* 2023 (equal contribution of first three authors).
+
+
 - **Bordelon**, Pehlevan ["The Influence of Learning Rule on Representation Dynamics in Wide Neural Networks"](https://openreview.net/forum?id=nZ2NtpolC5-), *ICLR* 2023. Notable-top 25%.
 
 - Atanasov, **Bordelon**, Sainathan, Pehlevan [The Onset of Variance-Limited Behavior for Networks in the Lazy and Rich Regimes](https://openreview.net/forum?id=JLINxPOVTh7) (Equal Contribution), *ICLR* 2023. 
@@ -36,6 +50,8 @@ title: "Papers"
 
 ### Preprints
 
+
+- **Bordelon**, Chaudhry, Pehlevan ["Infinite Limits of Multi-head Transformer Dynamics"](https://arxiv.org/abs/2405.15712)
 
 - Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
