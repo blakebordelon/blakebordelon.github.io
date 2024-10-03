@@ -5,6 +5,7 @@ title: "Papers"
 
 ### Reviewed Publications
 
+- **Bordelon**, Chaudhry, Pehlevan ["Infinite Limits of Multi-head Transformer Dynamics"](https://arxiv.org/abs/2405.15712). *Neurips* 2024. 
 
 - **Bordelon**, Atanasov, Pehlevan ["A Dynamical Model of Neural Scaling Laws"](https://arxiv.org/abs/2402.01092) *ICML* 2024. 
 
@@ -51,7 +52,8 @@ title: "Papers"
 ### Preprints
 
 
-- **Bordelon**, Chaudhry, Pehlevan ["Infinite Limits of Multi-head Transformer Dynamics"](https://arxiv.org/abs/2405.15712)
+- **Bordelon**, Atanasov, Pehlevan ["How Feature Learning Can Improve Neural Scaling Laws"](https://arxiv.org/abs/2402.01092) *ICML* 2024. 
+
 
 - Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.

@@ -24,7 +24,9 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 </div>
 
 ### Recent News
-+ We have a new preprint on different types of infinite width and depth [limits in transformers](https://arxiv.org/abs/2405.15712). 
++ Recent talk at Harvard CMSA on [scaling limits and scaling laws](https://www.youtube.com/watch?v=0998FJhPdj8&t=3205s).
++ New preprint on how [feature learning can alter power law exponents](https://arxiv.org/abs/2409.17858) of neural scaling laws.
++ Our work on infinite width and depth [limits in transformers](https://arxiv.org/abs/2405.15712) will be at Neurips 2024. 
 + I recenly helped teach at Analytical Connectionism Summer School 2024. Check out some [Google colab exercises](https://colab.research.google.com/drive/1Uqbg5anUtyWNKnZBoSce6SVn0Ehh8f_W?authuser=1) on mean field theory, random matrix theory, and scaling limits of neural networks. 
 + I gave a long 1:45 talk at ICTP Junior Theoretical Neuroscientist Workshops about several recent papers. [The recording can be found here](https://video.ictp.it/WEB/2024/2024_06_03-smr3943/2024_06_04-14_15-smr3943.mp4). 
 + Some blog posts ( [part 1](https://kempnerinstitute.harvard.edu/research/deeper-learning/infinite-limits-of-neural-networks/) and [part 2](https://kempnerinstitute.harvard.edu/research/deeper-learning/a-dynamical-model-of-neural-scaling-laws/)) about our recent works on infinite limits and neural scaling laws were posted by the Kempner instute.
