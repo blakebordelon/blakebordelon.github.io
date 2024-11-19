@@ -55,6 +55,10 @@ title: "Papers"
 - **Bordelon**, Atanasov, Pehlevan ["How Feature Learning Can Improve Neural Scaling Laws"](https://arxiv.org/abs/2409.17858) 2024. 
 
 
+- Kumar, Anker, Spector, **Bordelon**, Muenninghof, Paul, Pehlevan, Re, Raghunathan ["Scaling Laws for Precision"](https://arxiv.org/abs/2411.04330) 2024.
+
+- Kumar, **Bordelon**, Pehlevan, Murthy, Gershman ["Do Mice Grok? Glimpses of Hidden Progress During Overtraining in Sensory Cortex"](https://arxiv.org/abs/2411.03541) 2024.
+
 - Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
 

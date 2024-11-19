@@ -24,6 +24,7 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 </div>
 
 ### Recent News
++ [Talk](https://www.youtube.com/watch?v=WcWFFiPRslM&t=502s) at IPAM Workshop on Deep Learning Theory and Practice 
 + Recent talk at Harvard CMSA on [scaling limits and scaling laws](https://www.youtube.com/watch?v=0998FJhPdj8&t=3205s).
 + New preprint on how [feature learning can alter power law exponents](https://arxiv.org/abs/2409.17858) of neural scaling laws.
 + Our work on infinite width and depth [limits in transformers](https://arxiv.org/abs/2405.15712) will be at Neurips 2024. 
@@ -82,6 +83,11 @@ My works can be found on [Google Scholar](https://scholar.google.com/citations?u
 
 
 - **Bordelon**, Atanasov, Pehlevan ["How Feature Learning Can Improve Neural Scaling Laws"](https://arxiv.org/abs/2409.17858) 2024. 
+
+
+- Kumar, Anker, Spector, **Bordelon**, Muenninghof, Paul, Pehlevan, Re, Raghunathan ["Scaling Laws for Precision"](https://arxiv.org/abs/2411.04330) 2024.
+
+- Kumar, **Bordelon**, Pehlevan, Murthy, Gershman ["Do Mice Grok? Glimpses of Hidden Progress During Overtraining in Sensory Cortex"](https://arxiv.org/abs/2411.03541) 2024.
 
 - Shan, **Bordelon** ["Rapid Feature Evolution Accelerates Learning in Neural Networks
 "](https://arxiv.org/abs/2105.14301) (Equal Contribution) 2021.
