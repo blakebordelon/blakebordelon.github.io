@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 <br><br>
 
 ### Starting at UT Austin 2026, Hiring Postdocs and PhD students
-I will be moving to UT Austin [Oden Institute](https://oden.utexas.edu/) and [Department of Neuroscience](https://neuroscience.utexas.edu/). I am hiring postdocs [apply here](https://oden.utexas.edu/programs-and-awards/odonnell-jr-postdoc-fellowship/) and also [PhD students](https://oden.utexas.edu/academics/prospective-students/how-to-apply/). If you are interested in working with me, indicate your interest in the application. Feel free to contact my via [email](mailto:blake_bordelon@utexas.edu)
+I will be moving to UT Austin [Oden Institute](https://oden.utexas.edu/) and [Department of Neuroscience](https://neuroscience.utexas.edu/). I am hiring postocs [(link to apply)](https://oden.utexas.edu/programs-and-awards/odonnell-jr-postdoc-fellowship/) and also [PhD students](https://oden.utexas.edu/academics/prospective-students/how-to-apply/). If you are interested in working with me, indicate your interest in the application. Feel free to contact me via [email](mailto:blake_bordelon@utexas.edu)
 
 #### Research Topics 
 
